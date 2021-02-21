@@ -34,28 +34,8 @@ header nav a {
 header nav a:hover {
   color: var(--vermelho);
 }
-/*Filme principal*/
-.filme-principal {
-  font-size: 16px;
-  background: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0.3) 100%),
-    url("/img/capa-shingeki.jpg");
-  height: 500px;
-  background-size: cover;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: flex-start;
-}
+/*Filme principal1*/
 
-.filme-principal .descricao {
-  margin-top: 10px;
-  margin-bottom: 40px;
-}
-.filme-principal .titulo {
-  margin-top: 20%;
-  font-size: 40px;
-  font-family: helvetica;
-}
 .filme-principal1 {
   font-size: 16px;
   background: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 30)100%),
@@ -66,6 +46,7 @@ header nav a:hover {
   flex-direction: column;
   justify-content: center;
   align-items: flex-start;
+  
 }
 
 .filme-principal1 .descricao {
@@ -77,6 +58,8 @@ header nav a:hover {
   font-size: 40px;
   font-family: helvetica;
 }
+
+
 .botao {
   background-color: rgba(0, 0, 0, 0.5);
   border: none;
@@ -84,12 +67,12 @@ header nav a:hover {
   padding: 15px 30px;
   text-transform: uppercase;
   margin-right: 15px;
-  font-size: 13px;
+  font-size: 12px;
   cursor: pointer;
   transition: 0.3s ease all;
 }
 .botao:hover {
-  background-color:var(--vermelho);
+  background-color: #fff;
   color: #000000;
 }
 .botao i {
@@ -98,7 +81,7 @@ header nav a:hover {
 .container {
   margin: 0 20px;
 }
-.filme-principal .container {
+.filme-principal1 .container {
   width: 70%;
 }
 .box-filme{
@@ -107,9 +90,12 @@ header nav a:hover {
   display: block;
 }
 .carrosel-filmes{
-  margin-top: 5px;
+  margin-top: 20px;
 }
-.favoritar{
-  width: 150px;
-  padding: 45px;
-}
+
+@media screen and (min-width: 600px){
+  .botoes{
+    margin-bottom: 20px;
+  }
+  
+} 

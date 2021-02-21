@@ -14,3 +14,14 @@ $('.owl-carousel').owlCarousel({
         }
     }
 })
+
+function redirecionar(){
+    window.open("../assista.html");
+  }
+  function reagir(){
+    window.open("https://www.anitube.site/897023/");
+  }
+  function voltar(){
+    window.location.href ="index.html";
+  }
+ 

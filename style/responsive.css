@@ -2,15 +2,25 @@
 header .container{
   display: flex;
  flex-direction: column;
-
 }
 .botao{
   margin-top: 5px;
   width: 300px;
 }
+.filme-principal {
+    
+  background: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0.3) 100%),
+    url("/img/capa-shingeki-min.jpg") no-repeat;
+    
 }
 @media screen and (min-width:1000px){
   .descricao{
     width: 50%;
+
   }
+  .filme-principal {
+    
+    background: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0.3) 100%),
+      url("/img/capa-shingeki-med.jpg");
+}
 }
